@@ -1,0 +1,19 @@
+{
+  "name": "mms_ibm_vr",
+  "version": "1.0.0",
+  "description": "a small app to link vr to texts using twilio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "layne miao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1",
+    "nodemon": "^1.12.1",
+    "twilio": "^3.7.0",
+    "watson-developer-cloud": "^2.39.2"
+  }
+}
